@@ -1,0 +1,26 @@
+{
+  "name": "chromatic_playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "chromatic": "npx chromatic --project-token=chpt_696f32b8c673f9f"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@chromatic-com/storybook": "^1.4.0",
+    "@storybook/addon-essentials": "^8.1.1",
+    "@storybook/addon-interactions": "^8.1.1",
+    "@storybook/addon-links": "^8.1.1",
+    "@storybook/blocks": "^8.1.1",
+    "@storybook/html": "^8.1.1",
+    "@storybook/html-vite": "^8.1.1",
+    "@storybook/test": "^8.1.1",
+    "chromatic": "^11.3.5",
+    "storybook": "^8.1.1"
+  }
+}
